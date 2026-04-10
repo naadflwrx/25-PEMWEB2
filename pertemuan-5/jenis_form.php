@@ -1,7 +1,4 @@
 <?php
-// include_once 'koneksi.php';
-?>
-
 <div class="container px-5 my-5">
     <h3>Form Jenis Produk</h3>
 

@@ -1,8 +1,4 @@
 <?php
-// include_once 'koneksi.php';
-// include_once 'models/Jenis.php';
-
-
 $obj_jenis = new Jenis();
 $rs = $obj_jenis->index();
 

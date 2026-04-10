@@ -27,13 +27,13 @@ switch ($tombol) {
     case 'simpan':
         $obj_produk->simpan($data);
         break;
-    // case 'ubah':
-    //     $data[] = $_POST['idx'];; // tambah array ? ke-8 dari hidden field idx
-    //     $obj_produk->ubah($data);
-    //     break;
-    // case 'hapus':
-    //     $obj_produk->hapus($_POST['id']);
-    //     break; //$_POST['id'] dari hidden field di tombol hapus
+    case 'ubah':
+        $data[] = $_POST['idx'];; // tambah array ? ke-8 dari hidden field idx
+        $obj_produk->ubah($data);
+        break;
+    case 'hapus':
+        $obj_produk->hapus($_POST['id']);
+        break; //$_POST['id'] dari hidden field di tombol hapus
 
     default:
         header('location:index.php?hal=produk_list');

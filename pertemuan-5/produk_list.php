@@ -1,7 +1,4 @@
 <?php
-// include_once 'koneksi.php';
-// include_once 'models/Produk.php';
-
 //buat array scalar judul kolom
 $ar_judul = ['NO', 'KODE', 'NAMA', 'KONDISI', 'HARGA', 'STOK', 'FOTO'];
 //ciptakan object dari class Produk
