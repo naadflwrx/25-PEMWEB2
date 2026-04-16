@@ -36,7 +36,7 @@ switch ($tombol) {
         break; //$_POST['id'] dari hidden field di tombol hapus
 
     default:
-        header('location:index.php?hal=produk_list');
+        header('location: ../index.php?hal=produk_list');
         break;
 }
 //4. setelah selasai arahkan ke hal produk

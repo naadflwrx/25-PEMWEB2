@@ -7,7 +7,7 @@ $ar_kondisi = ['Baru', 'Second'];
 
 <div class="container px-5 my-5">
     <h3>Form Produk</h3>
-    <form method="POST" action="controller/produk.php">
+    <form method="POST" action="controller/produkController.php">
 
         <div class="form-floating mb-3">
             <input class="form-control" name="kode" id="kodeProduk" type="text" placeholder="Kode Produk" required />
